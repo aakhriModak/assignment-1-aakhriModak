@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 20
+      "points": 10
     },
     {
       "name": "02_distance.py",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 20
+      "points": 10
     },
     {
       "name": "03_ackermann.py",
@@ -38,17 +38,17 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 20
+      "points": 10
     },
     {
-      "name": "04_is_fibonacci.py",
+      "name": "04_is_fibonaccci.py",
       "setup": "",
-      "run": "python3 04_is_fibonacci.py",
+      "run": "python3 04_is_fibonaccci.py",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 20
+      "points": 10
     },
     {
       "name": "05_is_palindrome.py",
@@ -58,7 +58,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 20
+      "points": 10
     }
   ]
 }
