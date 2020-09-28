@@ -30,6 +30,14 @@ import unittest
 
 def is_triangle(side_1, side_2, side_3):
     # write your code here
+     if side_1>0 and side_2>0 and side_3>0:
+         if side_1+side_2>side_3 and side_2+side_3>side_1 and side_1+side_3>side_2:
+             return True
+         else:
+             return False
+     else:
+          return False
+
     
         
 # DO NOT TOUCH THE BELOW CODE

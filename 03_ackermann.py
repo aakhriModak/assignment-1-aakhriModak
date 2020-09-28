@@ -21,6 +21,14 @@ import unittest
 
 def ackermann(m, n):
    # write your code here
+    if m==0 and n>0:
+        return n+1
+    if m>0 and n==0:
+        return ackermann(m-1,1)
+    if m>0 and n>0:
+        x=ackermann(m,n-1)
+        return ackermann(m-1,x)
+
 
 # DO NOT TOUCH THE BELOW CODE
 
