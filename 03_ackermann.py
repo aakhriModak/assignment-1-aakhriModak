@@ -19,7 +19,7 @@ import unittest
 # Return the output, No need read input or print the ouput
 
 
-def ackermann(m, n):
+def ackermann(m,n):
    # write your code here
     if m==0 and n>0:
         return n+1

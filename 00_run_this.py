@@ -30,7 +30,7 @@ def run_this(args):
 class TestRunThis(unittest.TestCase):
 
     def test_01(self):
-        self.assertEqual(run_this(1), 1)
+        self.assertEqual(run_this(1),1)
 
     def test_02(self):
         self.assertEqual(run_this('this is a string'), 'this is a string')

@@ -28,7 +28,7 @@ import unittest
 # Return the output, No need read input or print the ouput
 
 
-def is_triangle(side_1, side_2, side_3):
+def is_triangle(side_1,side_2, side_3):
     # write your code here
      if side_1>0 and side_2>0 and side_3>0:
          if side_1+side_2>side_3 and side_2+side_3>side_1 and side_1+side_3>side_2:
