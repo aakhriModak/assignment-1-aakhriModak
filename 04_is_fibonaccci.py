@@ -30,13 +30,21 @@ import unittest
 
 def is_fibonacci(n):
     #write your code here
-    a=0
-    while(n>=a):
-        if n==a or n==1:
+    if n == 0 or n == 1:
+        return True
+    else:
+        a1 = 0
+        b = 1
+        a = 0
+        while (n > a1):
+            a1 = a + b
+            a = b
+            b = a1
+        if n == a1:
             return True
-        b=1
-        a+=b
-        b+=1
+        else:
+            return False
+
 
 
 

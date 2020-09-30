@@ -25,16 +25,20 @@ False
 import unittest
 
 # Implement the below function and run this file
-# Return the output, No need read input or print the ouput
+# Return the output, No need read input or print the output
 
 
-def is_palindrome(s_1, s_2):
+def is_palindrome(s_1,s_2):
+    s3=s_1[::-1]
     # write your code here
-    if s_1.equals(s_2):
-        if s_1.reverse()==s_2
+    if len(s_1)==len(s_2):
+        if s3==s_2:
             return True
         else:
             return False
+    else:
+        return False
+
 
 
 # DO NOT TOUCH THE BELOW CODE
