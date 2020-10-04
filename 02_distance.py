@@ -41,7 +41,7 @@ def distance(point_1, point_2):
 class TestDistance(unittest.TestCase):
 
     def test_01(self):
-        point_1 = (1, 2)
+        point_1 = (1,2)
         point_2 = (3, 2)
         self.assertEqual(distance(point_1, point_2), 2)
 

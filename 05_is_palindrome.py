@@ -32,7 +32,7 @@ def is_palindrome(s_1,s_2):
     s3=s_1[::-1]
     # write your code here
     if len(s_1)==len(s_2):
-        if s3 ==s_2:
+        if s3 == s_2:
             return True
         else:
             return False

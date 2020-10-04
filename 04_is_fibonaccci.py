@@ -36,7 +36,7 @@ def is_fibonacci(n):
         a1 = 0
         b = 1
         a = 0
-        while (n > a1):
+        while (n>a1):
             a1 = a+b
             a = b
             b = a1
